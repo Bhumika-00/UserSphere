@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #b5ead7, #ff9a9e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        h2 {
+            color: #d72638;
+            font-weight: bold;
+        }
+        button {
+            background-color: #d72638;
+            color: white;
+            border: none;
+            padding: 12px;
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #a91d2a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Total number of users are: <%= count %></h2>
+        <button>Join us today!</button>
+    </div>
+</body>
+</html>
